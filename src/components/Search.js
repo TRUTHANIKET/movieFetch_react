@@ -33,7 +33,7 @@ export default function Search() {
         SetQuery(e.target.value)
     }}></input>
     <br></br>
-    <button type='submit'>Search</button>
+    <button type='submit' id='submit'>Search</button>
     </div></form>
     
     {movies.filter(movie => movie.poster_path).map(movie => (
